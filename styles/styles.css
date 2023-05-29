@@ -1,0 +1,239 @@
+
+body {
+    background:#F5F5F5;
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Manrope';
+    letter-spacing: -0.03em;
+}
+
+h1, h2 {
+    text-align: left;
+    color: #121212; 
+}
+
+/*КОНТЕЙНЕР*/ 
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background-color: #ffffff;
+}
+
+/*СЕКЦИИ*/ 
+
+.main-section .container{
+
+    padding: 128px 125px 0px 125px;
+}
+
+.description-section .container, .project-section .container{
+
+    padding: 150px 125px 0px 125px;
+}
+
+.project-section .container{
+
+    padding: 150px 125px 150px 125px;
+
+}
+
+.service-section .container {
+
+    padding: 150px 125px 150px 125px;
+    background-color: #121212;
+}
+
+/*СЕКЦИЯ 1*/ 
+
+h1 {
+    /*рамка*/
+    width: 956px;
+    /*параметры текста*/
+    font-style: normal;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+.banner-main {
+/*расположение картинки*/ 
+    position: relative; 
+    margin-top: 30px;
+/*рамка картинки*/
+    width: 1150px;
+    height: 500px;
+/*параметры картинки*/
+    background-image: url('../resources/Main\ banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p.banner-main-text {
+/*расположение текста*/
+    position: absolute;
+    top: 379px;
+    left: 40px;
+/*рамка*/
+    width: 430px;
+/*параметры текста*/
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    color:#ffffff;
+}
+
+/*СЕКЦИЯ 2*/ 
+
+h2 {
+/*рамка*/
+    width: 51px;
+    /*параметры текста*/
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+p.description-main {
+/*расположение*/
+    margin-top: 30px;
+/*рамка*/
+    width: 1048px;
+    height: 366px;
+/*параметры текста*/
+    font-size: 45px;
+    line-height: 61px;
+    text-align: left;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+a.description-link {
+/*расположение*/
+    margin-top: 30px;
+/*расположение текста*/
+    padding-top: 20px;
+/*параметры ссылки*/
+    display: block; /*блочный элемент*/
+    width: 225px;
+    height: 67px;
+    border: 1px solid #AD1818;
+    background-color: #AD1818;
+    border-radius: 5px; /*закругление*/
+/*параметры текста на ссылке*/
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*СЕКЦИЯ 3*/ 
+/*часть 2 - блоки*/
+
+.project-list {
+/*отступ сета блоков сверху*/
+    margin-top: 30px;
+}
+
+.project-list .project {
+/*отступ сета между блоками*/
+    margin-top: 90px;
+}
+
+.project-list :first-child{
+
+    margin-top: 0;
+}
+
+.project__image {
+    margin-bottom: 15px;
+/*рамка*/
+    display: block;
+    width: 1150px;
+}
+
+.project__title {
+    margin-bottom: 15px;
+/*рамка*/
+    width: 542px;
+/*параметры текста*/
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    line-height: 41px;
+    text-align: left;
+    color: #121212;
+}
+
+.project__link {
+/*рамка*/
+    width: 127px;
+    height: 27px;
+/*параметры текста*/
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    position: absolute;
+    text-align: left;
+    color: #AD1818;
+    text-decoration: none;
+}
+a.projectfullbutton {
+    margin-top: 90px;
+    padding-top: 56px;
+/*параметры ссылки*/
+    display: block;
+    width: 100%;
+    height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+/*параметры текста*/
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #AD1818;
+    cursor: pointer;
+}
+
+a.projectfullbutton:hover {
+    /*наведение на элемент*/
+    color:  #ffffff;
+    background-color: #AD1818;
+}
+
+/*СЕКЦИЯ 4*/ 
+/*часть 3 - блоки на черном фоне*/
+.services{
+    margin-top: 34px;
+    width: 100%;
+}
+
+.services .service {
+    margin-top: 60px;
+}
+
+.services :first-child{
+    margin-top: 0;
+}
+
+.service__img{
+    margin-bottom: 15px;
+    width: 1150px;
+    height: 270px;
+}
+
+.service__title {
+    width: 100%;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.service-section h2{
+    
+    color: #ffffff;
+}
+
