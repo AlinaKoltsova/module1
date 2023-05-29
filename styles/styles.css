@@ -126,7 +126,11 @@ a.description-link {
     color: #ffffff;
     text-align: center;
 }
-
+a:hover {
+    /*наведение на элемент*/
+    color:  #AD1818;
+    background-color: #ffffff;
+}
 /*СЕКЦИЯ 3*/ 
 /*часть 2 - блоки*/
 
