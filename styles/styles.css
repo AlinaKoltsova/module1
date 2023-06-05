@@ -376,6 +376,12 @@ a.contact-email:hover {
     color: #121212;
     opacity: 0.5;
 }
+a.contact-phone:hover {
+
+    text-decoration: underline;
+    color: #121212;
+    opacity: 0.5;
+}
 
 /*СЕКЦИЯ 8*/ 
 /*ФУТЕР*/
