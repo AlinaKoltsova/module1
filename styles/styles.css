@@ -1,0 +1,350 @@
+/* плавный scroll */
+html {
+    scroll-behavior: smooth;
+    min-width: 1400px;
+}
+
+body {
+
+    font-weight: 400;
+    font-family: 'Manrope';
+    letter-spacing: -0.03em;
+    background: #FFFFFF;
+}
+
+p, div, a, h1, h2, h3 {
+
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-align: left;
+}
+
+/* СВОЙСТВА КОНТЕЙНЕРА */
+
+.container {
+
+    padding: 0px 125px; 
+    margin: 0 auto;
+    width: 1400px;
+}
+
+/*  ШАПКА САЙТА */
+
+.header__inner {
+
+    padding: 33px 0px 70px;
+}
+
+.header__nav {
+
+    float: right;
+}
+
+.header__nav a {
+
+    margin-left: 58px;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-decoration: none;
+}
+
+.header__nav a:hover {
+
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/*  ПЕРВАЯ ЧАСТЬ МАКЕТА */
+
+h1 {
+    
+    width: 956px;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.desc__picture_main {
+
+    position: relative; 
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/Main\ banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p.desc__text_overlay {
+
+    top: 379px;
+    left: 40px;
+    position: absolute;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27.32px;
+    color:#ffffff;
+}
+
+/*  ВТОРАЯ ЧАСТЬ МАКЕТА */
+    
+.aside {
+
+    margin: 150px 0px;
+}
+
+h2 {
+
+    font-size: 18px;
+    line-height: 25px;
+}
+
+p.aside__text {
+
+    margin: 30px 3px;
+    width: 1048px;
+    height: 366px;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+a.aside__link {
+
+    display: block;
+    width: 255px;
+    height: 67px;
+    border: 1px solid #AD1818;
+    background-color: #AD1818;
+    border-radius: 5px;
+
+    padding: 20px;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+    
+a.aside__link:hover {
+
+    color:  #AD1818;
+    background-color: #ffffff;
+}
+
+/*  ТРЕТЬЯ ЧАСТЬ МАКЕТА - ПРОЕКТЫ*/
+
+.projects__list {
+/*отступ сета блоков сверху*/
+    margin-top: 30px;
+}
+
+.projects__list .project {
+/*отступ сета между блоками*/
+    margin-top: 90px;
+}
+
+.projects__list :first-child{
+
+    margin-top: 0;
+}
+
+.project__image {
+
+    margin-bottom: 15px;
+}
+
+.project__title {
+
+    margin-bottom: 12px;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.project__link {
+
+    padding-left: 1px;
+    width: 127px;
+    height: 27px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #AD1818;
+    text-decoration: none;
+}
+
+a.projects__btn {
+    
+    margin: 90px 0px 150px;
+    display: block;
+    width: 100%;
+    height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+
+    padding: 56px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #AD1818;
+    cursor: pointer;
+}
+
+a.projects__btn:hover {
+
+    color:  #ffffff;
+    background-color: #AD1818;
+}
+
+/*  ЧЕТВЕРТАЯ ЧАСТЬ МАКЕТА - УСЛУГИ*/
+
+.services {
+
+    background: #121212;
+    padding: 150px 0px;
+}
+
+.services h2 {
+
+    color: #FFFFFF;
+    padding-left: 2px;
+}
+
+.services__list {
+/*отступ сета блоков сверху*/
+    margin-top: 34px;
+}
+
+.service {
+/*отступ сета между блоками*/
+    margin-top: 60px;
+}
+
+.service:first-child {
+
+    margin-top: 0px;
+}
+
+.service__title {
+
+    margin-top: 13px;
+    padding-left: 4px;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+
+/*  ПЯТАЯ ЧАСТЬ МАКЕТА - ГОТОВЫЙ ПРОЕКТ c ФУЛСКРИНОМ*/
+
+.ready-project__pic_fullscreen {
+
+    position: relative;
+    height: 717px;
+    background-image: url('../resources/full_screen_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;   
+}
+
+p.ready-project__text_overlay {
+
+    position: absolute;
+    bottom: 60px;
+    width: 443px;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: -1px;
+    text-align: left;
+    color:#ffffff;
+}
+
+/*  ШЕСТАЯ ЧАСТЬ МАКЕТА - КОНТАКТЫ*/
+
+.contacts {
+
+    margin: 150px 0px 125px;
+}
+
+.contacts h2 {
+
+    display: block;
+    padding-left: 1px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 24.59px;
+}
+
+.contacts h2:before {
+
+    margin-bottom: 13px;  
+    display: block;  
+    content:'';
+    width: 13px;
+    height: 22px;
+    background-image: url('../resources/Contacts-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contacts__item {
+
+    display: inline-block;
+    padding-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-decoration: none;
+    border-bottom: 2px solid #FFFFFF
+}
+
+.contacts__item:hover {
+
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+/*  СЕДЬМАЯ ЧАСТЬ МАКЕТА - ФУТЕР*/
+
+footer {
+    background: #121212;
+    padding: 63px 0px 30px;
+}
+
+.footer__nav {
+
+    width: 460px;
+    margin: auto;
+}
+
+.footer__nav a{
+    
+    margin-left: 53px;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer__nav :nth-last-child(4) {
+
+    margin-left: 0px;
+}
+
+.footer__nav a:hover {
+
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+p.footer__text {
+    
+    margin-top: 87px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    opacity: 0.5;
+}
